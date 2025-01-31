@@ -79,9 +79,9 @@ def render_header():
 # table 
 def render_table():
     table = Table(title="recent posts")
-    table.add_column("a potentially very long title", justify="center", style="cyan", no_wrap=True)
+    table.add_column("title", justify="center", style="cyan", no_wrap=True)
     table.add_column("author", justify="center", style="magenta")
-    table.add_column("and a potentially very long link", justify="center", style="green")
+    table.add_column("link", justify="center", style="green")
     table.add_column("date", justify="center", style="red")
     #table.add_column("image", justify="center", style="green")
 
